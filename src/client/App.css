@@ -1,0 +1,60 @@
+body {
+  background: #ecf0f1;
+  line-height: 1.4;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 60px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-content {
+  padding: 20px 0;
+}
+
+.content {
+  max-width: 52em;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+/* ----------------------------- */
+
+.centered {
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+@media screen and (min-width: 52em) {
+  .centered {
+    max-width: 52em;
+  }
+}
+
+.card-content {
+  padding: 1.4em;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  margin-bottom: .5em;
+  font-weight: normal;
+}
+
+.card-content p {
+  font-size: 95%;
+}

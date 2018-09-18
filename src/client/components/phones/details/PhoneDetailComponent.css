@@ -1,0 +1,30 @@
+.phone-details-img {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+.details-table {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+
+.cell {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    border: 1px solid #ecf0f1;
+}
+
+.cell div:first-child {
+    min-width: 120px;
+    text-align: right;
+    padding-right: 10px;
+    color: #d50000;
+    text-transform: uppercase;
+}
+
+.cell div:last-child {
+    text-align: left;
+}
