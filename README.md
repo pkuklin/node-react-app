@@ -6,13 +6,13 @@ Testing environment configured with Jest + Enzyme.
 It has simple Node.js/Express backend with 1 endpoint and mocked data.
 Client side app shows list of smartphones and opens details for each one.
 
-##Development mode
+## Development mode
 In the development mode there are 2 servers running. 
 The front end code will be served by the webpack dev server which helps with hot and live reloading. 
 The server side Express code will be served by a node server using nodemon which helps in automatically 
 restarting the server whenever server side code changes.
 
-####Run with Docker:
+#### Run with Docker:
 
 `docker build -t node-react-app .`
 
@@ -20,27 +20,27 @@ restarting the server whenever server side code changes.
 
 It will be available on `http://localhost:3000/`
 
-#####Run with Npm: 
+##### Run with Npm: 
 
 `npm install`
 
 `npm run dev`
 
-#####Run with Yarn: 
+##### Run with Yarn: 
 
 `yarn install`
 
 `yarn dev`
 
-####How to test (do not forget to run `npm install` or `yarn install` before testing):
+#### How to test (do not forget to run `npm install` or `yarn install` before testing):
 
-#####Test with Npm:
+##### Test with Npm:
 
 `npm run test`
 
 `npm run test:watch`
 
-#####Test with Yarn:
+##### Test with Yarn:
 
 `yarn test`
 
